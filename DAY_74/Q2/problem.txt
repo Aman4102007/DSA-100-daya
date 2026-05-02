@@ -1,0 +1,7 @@
+Day 74 - Question 2
+==================================================
+
+Name: Number of Connected Components in an Undirected Graph
+
+Link: https://leetcode.com/problems/number-of-provinces/description/
+Difficulty: Medium

@@ -1,0 +1,7 @@
+Day 23 - Question 2
+==================================================
+
+Name: List Cycle Detection
+
+Link: https://leetcode.com/problems/linked-list-cycle/description/s
+Difficulty: Easy

@@ -1,0 +1,16 @@
+{
+  "day": 15,
+  "question": "1",
+  "problem": {
+    "title": "Matrix Diagonal Sum",
+    "description": "Problem: Given a matrix, calculate the sum of its primary diagonal elements. The primary diagonal consists of elements where row index equals column index.\n\nInput:\n- First line: two integers m and n\n- Next m lines: n integers each\n\nOutput:\n- Print the sum of the primary diagonal elements\n\nExample:\nInput:\n3 3\n1 2 3\n4 5 6\n7 8 9\n\nOutput:\n15\n\nExplanation:\n1 + 5 + 9 = 15"
+  },
+  "solution": {
+    "explanation": "Read the matrix, add elements where row and column indices are equal, and print the sum.",
+    "time_complexity": "O(m*n)",
+    "space_complexity": "O(m*n)"
+  },
+  "generated_at": "2026-05-01 23:58:44",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

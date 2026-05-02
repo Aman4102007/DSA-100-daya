@@ -1,0 +1,17 @@
+{
+  "day": 43,
+  "question": "2",
+  "problem": {
+    "name": "Binary Tree Inorder Traversal",
+    "link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Count nodes first, allocate array, then perform iterative inorder to fill it.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:25:23",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

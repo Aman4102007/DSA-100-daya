@@ -1,0 +1,16 @@
+{
+  "day": 71,
+  "question": "1",
+  "problem": {
+    "title": "Hash Table Using Quadratic Probing",
+    "description": "Problem Statement\nImplement a hash table using quadratic probing with formula:\n\nh(k, i) = (h(k) + i*i) % m\n\nInput Format\nSame as previous.\n\nOutput Format\nResult of SEARCH operations.\n\nSample Input\n7\n4\nINSERT 49\nINSERT 56\nSEARCH 49\nSEARCH 15\n\nSample Output\nFOUND\nNOT FOUND\n\nExplanation\nCollisions resolved using i² jumps."
+  },
+  "solution": {
+    "explanation": "Use an array of size m, probe with (key+i*i)%m until an empty slot or the key is found.",
+    "time_complexity": "O(n) average, O(m) worst per operation",
+    "space_complexity": "O(m)"
+  },
+  "generated_at": "2026-05-02 00:48:33",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

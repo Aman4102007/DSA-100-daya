@@ -1,0 +1,17 @@
+{
+  "day": 3,
+  "question": "2",
+  "problem": {
+    "name": "Missing number in array",
+    "link": "https://practice.geeksforgeeks.org/problems/missing-number-in-array/0",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Compute expected sum of 1..n+1 and subtract actual sum of array.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:49:10",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

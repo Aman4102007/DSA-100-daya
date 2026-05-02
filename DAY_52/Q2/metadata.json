@@ -1,0 +1,17 @@
+{
+  "day": 52,
+  "question": "2",
+  "problem": {
+    "name": "Lowest Common Ancestor of a Binary Tree",
+    "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Recursively search left/right; if both sides return node, else propagate found node.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(h)"
+  },
+  "generated_at": "2026-05-02 00:30:31",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

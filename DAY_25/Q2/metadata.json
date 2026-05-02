@@ -1,0 +1,17 @@
+{
+  "day": 25,
+  "question": "2",
+  "problem": {
+    "name": "Linked List Cycle II",
+    "link": "https://leetcode.com/problems/linked-list-cycle-ii/description/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Use Floyd’s cycle detection to find a meeting point, then reset one pointer to head and move both one step at a time to find the cycle entry.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:13:08",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

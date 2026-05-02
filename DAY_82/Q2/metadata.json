@@ -1,0 +1,17 @@
+{
+  "day": 82,
+  "question": "2",
+  "problem": {
+    "name": "Search Insert Position",
+    "link": "https://leetcode.com/problems/search-insert-position/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Linear scan until element >= target, return index or end index if not found.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:59:08",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

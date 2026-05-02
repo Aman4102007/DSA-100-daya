@@ -1,0 +1,17 @@
+{
+  "day": 66,
+  "question": "2",
+  "problem": {
+    "name": "Course Schedule",
+    "link": "https://leetcode.com/problems/course-schedule/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Build adjacency matrix, DFS with 3‑color marking to detect cycles.",
+    "time_complexity": "O(n^2 + m)",
+    "space_complexity": "O(n^2)"
+  },
+  "generated_at": "2026-05-02 00:40:44",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

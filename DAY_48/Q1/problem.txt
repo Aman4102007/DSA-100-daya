@@ -1,0 +1,15 @@
+Day 48 - Question 1
+==================================================
+
+Title: Count Leaf Nodes
+
+Description:
+Problem: Count Leaf Nodes
+
+Implement the solution for this problem.
+
+Input:
+- Input specifications
+
+Output:
+- Output specifications

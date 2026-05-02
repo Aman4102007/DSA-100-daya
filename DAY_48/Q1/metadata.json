@@ -1,0 +1,16 @@
+{
+  "day": 48,
+  "question": "1",
+  "problem": {
+    "title": "Count Leaf Nodes",
+    "description": "Problem: Count Leaf Nodes\n\nImplement the solution for this problem.\n\nInput:\n- Input specifications\n\nOutput:\n- Output specifications"
+  },
+  "solution": {
+    "explanation": "Read the tree, count degrees, nodes with degree 1 (except when only one node) are leaves.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:27:57",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

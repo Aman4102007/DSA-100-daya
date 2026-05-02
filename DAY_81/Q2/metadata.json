@@ -1,0 +1,17 @@
+{
+  "day": 81,
+  "question": "2",
+  "problem": {
+    "name": "Binary Search",
+    "link": "https://leetcode.com/problems/binary-search/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Iterative binary search on sorted array, returning index or -1.",
+    "time_complexity": "O(log n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:58:33",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

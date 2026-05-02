@@ -1,0 +1,7 @@
+Day 6 - Question 2
+==================================================
+
+Name: Move Zeroes
+
+Link: https://leetcode.com/problems/move-zeroes/
+Difficulty: Easy

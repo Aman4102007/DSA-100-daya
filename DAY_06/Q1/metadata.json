@@ -1,0 +1,16 @@
+{
+  "day": 6,
+  "question": "1",
+  "problem": {
+    "title": "Remove Duplicates from Sorted Array",
+    "description": "Problem: Given a sorted array of n integers, remove duplicates in-place. Print only unique elements in order.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers (sorted array)\n\nOutput:\n- Print unique elements only, space-separated\n\nExample:\nInput:\n6\n1 1 2 2 3 3\n\nOutput:\n1 2 3\n\nExplanation: Keep first occurrence of each element: 1, 2, 3"
+  },
+  "solution": {
+    "explanation": "Scan the sorted array, keep the first occurrence of each value in place, then print the unique values.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:50:24",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

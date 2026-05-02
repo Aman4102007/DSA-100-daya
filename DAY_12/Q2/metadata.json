@@ -1,0 +1,17 @@
+{
+  "day": 12,
+  "question": "2",
+  "problem": {
+    "name": "Toeplitz Matrix",
+    "link": "https://leetcode.com/problems/toeplitz-matrix/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Check each cell against its top‑left neighbor; if any differ, matrix isn’t Toeplitz.",
+    "time_complexity": "O(n*m)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:53:39",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

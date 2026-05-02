@@ -1,0 +1,16 @@
+{
+  "day": 57,
+  "question": "1",
+  "problem": {
+    "title": "Mirror a Binary Tree",
+    "description": "Problem Statement:\nConvert a binary tree into its mirror image by swapping left and right children at every node.\n\nInput Format:\n- First line contains integer N\n- Second line contains level-order traversal (-1 indicates NULL)\n\nOutput Format:\n- Print inorder traversal of mirrored tree\n\nExample:\nInput:\n7\n1 2 3 4 5 6 7\n\nOutput:\n7 3 6 1 5 2 4\n\nExplanation:\nEach node’s left and right children are swapped recursively."
+  },
+  "solution": {
+    "explanation": "Build an array representation of the tree, swap left and right child indices for each node to mirror, then perform inorder traversal.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:34:34",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

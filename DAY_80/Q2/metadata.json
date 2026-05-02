@@ -1,0 +1,17 @@
+{
+  "day": 80,
+  "question": "2",
+  "problem": {
+    "name": "Find the City With the Smallest Number of Neighbors",
+    "link": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Use Floyd‑Warshall to compute all‑pairs shortest paths, then count reachable nodes within the threshold for each city and pick the largest index with minimal count.",
+    "time_complexity": "O(n^3)",
+    "space_complexity": "O(n^2)"
+  },
+  "generated_at": "2026-05-02 00:58:03",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

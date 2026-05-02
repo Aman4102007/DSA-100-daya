@@ -1,0 +1,16 @@
+{
+  "day": 31,
+  "question": "1",
+  "problem": {
+    "title": "Stack Implementation using Array",
+    "description": "Problem: Implement a stack data structure using an array with the following operations: push, pop, and display.\n\nInput:\n- First line: integer n (number of operations)\n- Next n lines: operation type and value (if applicable)\n  - 1 value: push value\n  - 2: pop\n  - 3: display\n\nOutput:\n- For display: print stack elements from top to bottom\n- For pop: print popped element or 'Stack Underflow'\n\nExample:\nInput:\n5\n1 10\n1 20\n3\n2\n3\n\nOutput:\n20 10\n20\n10"
+  },
+  "solution": {
+    "explanation": "Use an array and a top index to implement push, pop and display; operations are O(1) except display which is O(k).",
+    "time_complexity": "O(n + total_display_elements)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:16:19",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

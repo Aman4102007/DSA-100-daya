@@ -1,0 +1,7 @@
+Day 47 - Question 2
+==================================================
+
+Name: Maximum Depth of Binary Tree
+
+Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+Difficulty: Easy

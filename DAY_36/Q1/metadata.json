@@ -1,0 +1,16 @@
+{
+  "day": 36,
+  "question": "1",
+  "problem": {
+    "title": "Circular Queue Using Array",
+    "description": "Problem: Circular Queue Using Array - Implement using linked list with dynamic memory allocation.\n\nInput:\n- First line: integer n (number of elements to enqueue)\n- Second line: n space-separated integers\n- Third line: integer m (number of dequeue operations)\n\nOutput:\n- Print queue elements from front to rear after operations, space-separated\n\nExample:\nInput:\n5\n10 20 30 40 50\n2\n\nOutput:\n30 40 50 10 20\n\nExplanation:\nUse array and front/rear pointers. Rear wraps around to start after reaching array end. Dequeue removes elements from front. Display remaining elements in correct order."
+  },
+  "solution": {
+    "explanation": "Use a fixed array as a circular buffer; enqueue all inputs, then advance the front pointer m times to simulate dequeues, finally print from front to rear in order.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:20:22",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

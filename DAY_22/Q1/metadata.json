@@ -1,0 +1,16 @@
+{
+  "day": 22,
+  "question": "1",
+  "problem": {
+    "title": "Count Nodes in Linked List",
+    "description": "Problem: Count Nodes in Linked List\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n\nOutput:\n- Print the result\n\nExample:\nInput:\n5\n10 20 30 40 50\n\nOutput:\n10 20 30 40 50"
+  },
+  "solution": {
+    "explanation": "Read n and the n integers into an array, then print them in order separated by spaces.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:11:31",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

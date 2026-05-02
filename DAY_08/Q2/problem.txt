@@ -1,0 +1,7 @@
+Day 8 - Question 2
+==================================================
+
+Name: Power of Two
+
+Link: https://leetcode.com/problems/power-of-two/
+Difficulty: Easy

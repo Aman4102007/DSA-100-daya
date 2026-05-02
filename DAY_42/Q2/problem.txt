@@ -1,0 +1,7 @@
+Day 42 - Question 2
+==================================================
+
+Name: Find Median from Data Stream
+
+Link: https://leetcode.com/problems/find-median-from-data-stream/
+Difficulty: Hard

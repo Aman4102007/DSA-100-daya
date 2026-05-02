@@ -1,0 +1,7 @@
+Day 20 - Question 2
+==================================================
+
+Name: 3Sum
+
+Link: https://leetcode.com/problems/3sum/
+Difficulty: Medium

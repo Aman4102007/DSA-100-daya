@@ -1,0 +1,16 @@
+{
+  "day": 7,
+  "question": "1",
+  "problem": {
+    "title": "Recursive Fibonacci",
+    "description": "Problem: Write a recursive function fib(n) to compute the n-th Fibonacci number where fib(0)=0 and fib(1)=1.\n\nInput:\n- Single integer n\n\nOutput:\n- Print the n-th Fibonacci number\n\nExample:\nInput:\n6\n\nOutput:\n8\n\nExplanation: Sequence: 0,1,1,2,3,5,8 at positions 0,1,2,3,4,5,6"
+  },
+  "solution": {
+    "explanation": "The program defines a recursive function fib that returns 0 for n=0, 1 for n=1, and otherwise returns fib(n-1)+fib(n-2). main reads n and prints fib(n).",
+    "time_complexity": "O(2^n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-01 23:50:53",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

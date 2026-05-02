@@ -1,0 +1,16 @@
+{
+  "day": 27,
+  "question": "1",
+  "problem": {
+    "title": "Find Intersection Point of Two Linked Lists",
+    "description": "Problem: Find Intersection Point of Two Linked Lists - Implement using linked list with dynamic memory allocation.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers (first list)\n- Third line: integer m\n- Fourth line: m space-separated integers (second list)\n\nOutput:\n- Print value of intersection node or 'No Intersection'\n\nExample:\nInput:\n5\n10 20 30 40 50\n4\n15 25 30 40 50\n\nOutput:\n30\n\nExplanation:\nCalculate lengths, advance pointer in longer list, traverse both simultaneously. First common node is intersection."
+  },
+  "solution": {
+    "explanation": "Compare each element of the first list with all elements of the second list; the first equal value is reported as the intersection.",
+    "time_complexity": "O(n*m)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:14:04",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

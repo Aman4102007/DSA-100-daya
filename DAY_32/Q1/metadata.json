@@ -1,0 +1,16 @@
+{
+  "day": 32,
+  "question": "1",
+  "problem": {
+    "title": "Push and Pop in Stack",
+    "description": "Problem: Implement push and pop operations on a stack and verify stack operations.\n\nInput:\n- First line: integer n\n- Second line: n integers to push\n- Third line: integer m (number of pops)\n\nOutput:\n- Print remaining stack elements from top to bottom\n\nExample:\nInput:\n5\n10 20 30 40 50\n2\n\nOutput:\n30 20 10"
+  },
+  "solution": {
+    "explanation": "Read n integers into an array as a stack, pop m times by decreasing the top index, then print remaining elements from top to bottom.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:16:50",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,16 @@
+{
+  "day": 16,
+  "question": "1",
+  "problem": {
+    "title": "Frequency Counter in Array",
+    "description": "Problem: Given an array of integers, count the frequency of each distinct element and print the result.\n\nInput:\n- First line: integer n (size of array)\n- Second line: n integers\n\nOutput:\n- Print each element followed by its frequency in the format element:count\n\nExample:\nInput:\n5\n1 2 2 3 1\n\nOutput:\n1:2 2:2 3:1"
+  },
+  "solution": {
+    "explanation": "Count each distinct element by scanning the array, marking already counted positions, and printing element:frequency pairs separated by spaces.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-01 23:59:20",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

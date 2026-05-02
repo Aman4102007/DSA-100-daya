@@ -1,0 +1,7 @@
+Day 56 - Question 2
+==================================================
+
+Name: Symmetric Tree
+
+Link: https://leetcode.com/problems/symmetric-tree/
+Difficulty: Easy

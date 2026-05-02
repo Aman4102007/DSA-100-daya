@@ -1,0 +1,17 @@
+{
+  "day": 48,
+  "question": "2",
+  "problem": {
+    "name": "Sum of Left Leaves",
+    "link": "https://leetcode.com/problems/sum-of-left-leaves/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Recursively traverse the tree; when a left child is a leaf add its value, otherwise recurse.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(h)"
+  },
+  "generated_at": "2026-05-02 00:28:10",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

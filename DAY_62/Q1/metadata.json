@@ -1,0 +1,16 @@
+{
+  "day": 62,
+  "question": "1",
+  "problem": {
+    "title": "Graph Representation Using Adjacency List",
+    "description": "Problem: Build a graph with adjacency list representation. Use linked lists or dynamic arrays.\n\nInput:\n- n (vertices)\n- m (edges)\n- edges (u, v)\n\nOutput:\n- List of adjacency lists for each vertex"
+  },
+  "solution": {
+    "explanation": "Read n and m, store each vertex’s neighbors in a fixed‑size 2‑D array, then print each adjacency list.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(n+m)"
+  },
+  "generated_at": "2026-05-02 00:37:36",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

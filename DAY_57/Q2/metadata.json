@@ -1,0 +1,17 @@
+{
+  "day": 57,
+  "question": "2",
+  "problem": {
+    "name": "Flatten Binary Tree to Linked List",
+    "link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Iteratively move left subtree to right, attaching original right subtree to the tail of the moved part, then proceed rightwards.",
+    "time_complexity": "O(n^2) worst‑case (skewed tree), O(n) average",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:34:53",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

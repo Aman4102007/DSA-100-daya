@@ -1,0 +1,17 @@
+{
+  "day": 56,
+  "question": "2",
+  "problem": {
+    "name": "Symmetric Tree",
+    "link": "https://leetcode.com/problems/symmetric-tree/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Recursively compare mirrored nodes; return true if all pairs match.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(h)"
+  },
+  "generated_at": "2026-05-02 00:34:04",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

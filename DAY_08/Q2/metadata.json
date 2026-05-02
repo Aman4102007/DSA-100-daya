@@ -1,0 +1,17 @@
+{
+  "day": 8,
+  "question": "2",
+  "problem": {
+    "name": "Power of Two",
+    "link": "https://leetcode.com/problems/power-of-two/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Divide the number by 2 while it’s even; if it ends at 1 it’s a power of two.",
+    "time_complexity": "O(log n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:51:35",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

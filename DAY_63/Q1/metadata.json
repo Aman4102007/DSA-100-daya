@@ -1,0 +1,16 @@
+{
+  "day": 63,
+  "question": "1",
+  "problem": {
+    "title": "Depth First Search (DFS)",
+    "description": "Problem: Perform DFS starting from a given source vertex using recursion.\n\nInput:\n- n\n- adjacency list\n- starting vertex s\n\nOutput:\n- DFS traversal order"
+  },
+  "solution": {
+    "explanation": "Read graph as adjacency lists, use recursion to visit unvisited neighbors, printing order as visited.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(n+m)"
+  },
+  "generated_at": "2026-05-02 00:38:21",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

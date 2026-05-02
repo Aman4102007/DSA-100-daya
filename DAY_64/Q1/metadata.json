@@ -1,0 +1,16 @@
+{
+  "day": 64,
+  "question": "1",
+  "problem": {
+    "title": "Breadth First Search (BFS)",
+    "description": "Problem: Perform BFS from a given source using queue.\n\nInput:\n- n\n- adjacency list\n- source s\n\nOutput:\n- BFS traversal order"
+  },
+  "solution": {
+    "explanation": "Read graph as adjacency lists, use a simple queue array to perform BFS from the source, printing nodes in visit order.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(n+m)"
+  },
+  "generated_at": "2026-05-02 00:38:58",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

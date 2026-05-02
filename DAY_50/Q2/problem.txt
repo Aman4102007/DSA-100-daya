@@ -1,0 +1,7 @@
+Day 50 - Question 2
+==================================================
+
+Name: Search in BST
+
+Link: https://leetcode.com/problems/search-in-a-binary-search-tree/description/
+Difficulty: Easy

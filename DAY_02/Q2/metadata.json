@@ -1,0 +1,17 @@
+{
+  "day": 2,
+  "question": "2",
+  "problem": {
+    "name": "Best Time to Buy and Sell Stock",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Track the lowest price seen so far and update maximum profit when a higher difference is found.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:48:37",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 31,
+  "question": "2",
+  "problem": {
+    "name": "Valid Parentheses",
+    "link": "https://leetcode.com/problems/valid-parentheses/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Use a stack to match opening and closing brackets, returning true if all match and stack empty.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:16:33",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

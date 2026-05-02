@@ -1,0 +1,7 @@
+Day 49 - Question 2
+==================================================
+
+Name: Insert into BST
+
+Link: https://leetcode.com/problems/insert-into-a-binary-search-tree/description/
+Difficulty: Medium

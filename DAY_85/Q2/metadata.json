@@ -1,0 +1,17 @@
+{
+  "day": 85,
+  "question": "2",
+  "problem": {
+    "name": "Find Minimum in Rotated Sorted Array",
+    "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Linear scan to find the smallest element.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:00:38",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 26,
+  "question": "2",
+  "problem": {
+    "name": "Design Linked List",
+    "link": "https://leetcode.com/problems/design-linked-list/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Use a simple singly linked list with head pointer and size. All operations traverse at most O(n) nodes.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:13:46",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

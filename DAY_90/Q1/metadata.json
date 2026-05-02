@@ -1,0 +1,16 @@
+{
+  "day": 90,
+  "question": "1",
+  "problem": {
+    "title": "Painter Partition Problem",
+    "description": "Problem Statement\nGiven n boards of different lengths and k painters, each painter paints contiguous boards. Painting a unit length of board takes one unit of time.\n\nDetermine the minimum time required to paint all boards.\n\nInput Format\nn k\nn space-separated integers representing board lengths\n\nOutput Format\nPrint the minimum time required to paint all boards.\n\nSample Input\n4 2\n10 20 30 40\n\nSample Output\n60\n\nExplanation\nOne painter paints boards of length 10, 20, and 30 (total 60), while the other paints board of length 40."
+  },
+  "solution": {
+    "explanation": "Binary search on the maximum time per painter; check how many painters needed for a given limit.",
+    "time_complexity": "O(n log(sum))",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:03:16",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

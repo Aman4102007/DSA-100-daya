@@ -1,0 +1,16 @@
+{
+  "day": 19,
+  "question": "1",
+  "problem": {
+    "title": "Pair Sum Closest to Zero",
+    "description": "Problem: Given an array of integers, find two elements whose sum is closest to zero.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n\nOutput:\n- Print the pair of elements whose sum is closest to zero\n\nExample:\nInput:\n5\n1 60 -10 70 -80\n\nOutput:\n-10 1\n\nExplanation: Among all possible pairs, the sum of -10 and 1 is -9, which is the closest to zero compared to other pairs."
+  },
+  "solution": {
+    "explanation": "Sort the array and use two pointers to find the pair with sum closest to zero, keeping track of the best pair.",
+    "time_complexity": "O(n log n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:09:39",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

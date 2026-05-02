@@ -1,0 +1,17 @@
+{
+  "day": 88,
+  "question": "2",
+  "problem": {
+    "name": "Magnetic Force Between Two Balls",
+    "link": "https://leetcode.com/problems/magnetic-force-between-two-balls/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Brute force over all pairs within distance maxD, compute integer force and keep maximum.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:02:28",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

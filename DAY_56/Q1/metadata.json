@@ -1,0 +1,16 @@
+{
+  "day": 56,
+  "question": "1",
+  "problem": {
+    "title": "Symmetric Binary Tree Check",
+    "description": "Problem Statement:\nCheck whether a given binary tree is symmetric around its center.\n\nInput Format:\n- First line contains integer N\n- Second line contains level-order traversal (-1 indicates NULL)\n\nOutput Format:\n- Print YES if symmetric, otherwise NO\n\nExample:\nInput:\n7\n1 2 2 3 4 4 3\n\nOutput:\nYES\n\nExplanation:\nLeft subtree is a mirror image of the right subtree."
+  },
+  "solution": {
+    "explanation": "Check symmetry by recursive mirror comparison on array indices of a binary tree in level order, treating -1 as NULL.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:33:49",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

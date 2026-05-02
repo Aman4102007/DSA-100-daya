@@ -1,0 +1,17 @@
+{
+  "day": 15,
+  "question": "2",
+  "problem": {
+    "name": "Set Matrix Zeroes",
+    "link": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Mark rows and columns that contain zeroes, then set all cells in those rows/columns to zero.",
+    "time_complexity": "O(m*n)",
+    "space_complexity": "O(m+n)"
+  },
+  "generated_at": "2026-05-01 23:58:59",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

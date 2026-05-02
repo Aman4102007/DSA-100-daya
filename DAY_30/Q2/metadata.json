@@ -1,0 +1,17 @@
+{
+  "day": 30,
+  "question": "2",
+  "problem": {
+    "name": "Add Two Numbers II",
+    "link": "https://leetcode.com/problems/add-two-numbers-ii/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Reverse both input lists, add digit by digit with carry, build result in reverse order, then reverse the result to forward order.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:15:59",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

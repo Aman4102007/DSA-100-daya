@@ -1,0 +1,17 @@
+{
+  "day": 44,
+  "question": "2",
+  "problem": {
+    "name": "Binary Tree Preorder Traversal",
+    "link": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Count nodes, allocate array, then recursively fill it in preorder.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:26:00",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

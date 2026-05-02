@@ -1,0 +1,16 @@
+{
+  "day": 20,
+  "question": "1",
+  "problem": {
+    "title": "Count Subarrays with Sum Zero",
+    "description": "Problem: Given an array of integers, count the number of subarrays whose sum is equal to zero.\n\nInput:\n- First line: integer n\n- Second line: n integers\n\nOutput:\n- Print the count of subarrays having sum zero\n\nExample:\nInput:\n6\n1 -1 2 -2 3 -3\n\nOutput:\n6\n\nExplanation: A subarray is a continuous part of the array. For the input array 1 -1 2 -2 3 -3, the following subarrays have sum zero: [1, -1], [2, -2], [3, -3], [1, -1, 2, -2], [2, -2, 3, -3], and [1, -1, 2, -2, 3, -3]. Since there are 6 such subarrays, the output is 6."
+  },
+  "solution": {
+    "explanation": "Use two nested loops to accumulate sums of all subarrays and count those that equal zero.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:10:13",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

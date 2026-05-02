@@ -1,0 +1,7 @@
+Day 68 - Question 2
+==================================================
+
+Name: Alien Dictionary
+
+Link: https://practice.geeksforgeeks.org/problems/alien-dictionary/1
+Difficulty: Hard

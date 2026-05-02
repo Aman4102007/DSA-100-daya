@@ -1,0 +1,16 @@
+{
+  "day": 11,
+  "question": "1",
+  "problem": {
+    "title": "Matrix Addition",
+    "description": "Problem: Write a program to perform addition of two matrices having the same dimensions. The sum of two matrices is obtained by adding corresponding elements of the matrices.\n\nInput:\n- First line: two integers m and n representing the number of rows and columns\n- Next m lines: n integers each representing the elements of the first matrix\n- Next m lines: n integers each representing the elements of the second matrix\n\nOutput:\n- Print the resultant matrix after addition, with each row on a new line and elements separated by spaces\n\nExample:\nInput:\n3 3\n1 2 3\n4 5 6\n7 8 9\n9 8 7\n6 5 4\n3 2 1\n\nOutput:\n10 10 10\n10 10 10\n10 10 10\n\nExplanation:\nEach element of the result matrix is the sum of the corresponding elements from the two input matrices.\n\nTest Cases:\n\nTest Case 1:\nInput:\n2 2\n1 2\n3 4\n5 6\n7 8\nOutput:\n6 8\n10 12\n\nTest Case 2:\nInput:\n1 3\n10 20 30\n1 2 3\nOutput:\n11 22 33\n\nTest Case 3:\nInput:\n3 1\n1\n2\n3\n4\n5\n6\nOutput:\n5\n7\n9"
+  },
+  "solution": {
+    "explanation": "Read two m×n matrices, add element‑wise and print the result row by row.",
+    "time_complexity": "O(m*n)",
+    "space_complexity": "O(m*n)"
+  },
+  "generated_at": "2026-05-01 23:52:54",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

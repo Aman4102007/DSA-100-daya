@@ -1,0 +1,15 @@
+Day 47 - Question 1
+==================================================
+
+Title: Height of Binary Tree
+
+Description:
+Problem: Height of Binary Tree
+
+Implement the solution for this problem.
+
+Input:
+- Input specifications
+
+Output:
+- Output specifications

@@ -1,0 +1,17 @@
+{
+  "day": 5,
+  "question": "2",
+  "problem": {
+    "name": "Merge Sorted Array",
+    "link": "https://leetcode.com/problems/merge-sorted-array/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Merge from the back using two pointers, placing the larger element at the end of nums1.",
+    "time_complexity": "O(m+n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:50:07",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

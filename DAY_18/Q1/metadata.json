@@ -1,0 +1,16 @@
+{
+  "day": 18,
+  "question": "1",
+  "problem": {
+    "title": "Rotate Array by K Positions",
+    "description": "Problem: Given an array of integers, rotate the array to the right by k positions.\n\nInput:\n- First line: integer n\n- Second line: n integers\n- Third line: integer k\n\nOutput:\n- Print the rotated array\n\nExample:\nInput:\n5\n1 2 3 4 5\n2\n\nOutput:\n4 5 1 2 3"
+  },
+  "solution": {
+    "explanation": "Copy each element to a new array at index (i+k)%n, then output the new array.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:00:29",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

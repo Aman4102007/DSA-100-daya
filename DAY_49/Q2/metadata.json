@@ -1,0 +1,17 @@
+{
+  "day": 49,
+  "question": "2",
+  "problem": {
+    "name": "Insert into BST",
+    "link": "https://leetcode.com/problems/insert-into-a-binary-search-tree/description/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Iteratively traverse the tree to find the correct spot, create a new node when a NULL child is found, and attach it.",
+    "time_complexity": "O(h)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:28:42",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

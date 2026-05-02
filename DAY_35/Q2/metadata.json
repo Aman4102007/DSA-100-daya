@@ -1,0 +1,17 @@
+{
+  "day": 35,
+  "question": "2",
+  "problem": {
+    "name": "Implement Queue using Stacks",
+    "link": "https://leetcode.com/problems/implement-queue-using-stacks/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Use two stacks: push to s1; pop/peek transfer elements to s2 only when needed, giving FIFO order.",
+    "time_complexity": "O(1) amortized per operation",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:19:54",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

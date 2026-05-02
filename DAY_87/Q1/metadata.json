@@ -1,0 +1,16 @@
+{
+  "day": 87,
+  "question": "1",
+  "problem": {
+    "title": "Implement Binary Search Iterative",
+    "description": "Problem: Implement Binary Search Iterative - Implement the algorithm.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n\nOutput:\n- Print the sorted array or search result\n\nExample:\nInput:\n5\n64 34 25 12 22\n\nOutput:\n12 22 25 34 64"
+  },
+  "solution": {
+    "explanation": "Read the array, sort it with a simple bubble sort, and print the sorted numbers separated by spaces.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:01:24",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

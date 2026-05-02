@@ -1,0 +1,7 @@
+Day 79 - Question 2
+==================================================
+
+Name: Strongly Connected Components
+
+Link: https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+Difficulty: Medium

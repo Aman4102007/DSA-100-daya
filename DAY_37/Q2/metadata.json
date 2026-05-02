@@ -1,0 +1,17 @@
+{
+  "day": 37,
+  "question": "2",
+  "problem": {
+    "name": "Kth Largest Element in a Stream",
+    "link": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Store all numbers in an array, append new value, sort descending each add, and return the k‑th element.",
+    "time_complexity": "O(n^2) per add (due to sorting)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:21:25",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

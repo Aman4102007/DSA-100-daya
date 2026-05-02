@@ -1,0 +1,16 @@
+{
+  "day": 52,
+  "question": "1",
+  "problem": {
+    "title": "LCA in Binary Tree",
+    "description": "Problem Statement:\nFind the Lowest Common Ancestor (LCA) of two nodes in a Binary Tree.\n\nInput Format:\n- First line contains integer N\n- Second line contains level-order traversal (-1 represents NULL)\n- Third line contains two node values\n\nOutput Format:\n- Print the LCA value\n\nExample:\nInput:\n7\n1 2 3 4 5 6 7\n4 5\n\nOutput:\n2"
+  },
+  "solution": {
+    "explanation": "Find indices of the two values in the level‑order array, then repeatedly move the deeper index up by dividing by 2 until both indices match; the value at that index is the LCA.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:30:15",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

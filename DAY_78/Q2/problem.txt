@@ -1,0 +1,7 @@
+Day 78 - Question 2
+==================================================
+
+Name: Articulation Points (GFG)
+
+Link: https://practice.geeksforgeeks.org/problems/articulation-point-1/1
+Difficulty: Hard

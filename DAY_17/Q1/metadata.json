@@ -1,0 +1,16 @@
+{
+  "day": 17,
+  "question": "1",
+  "problem": {
+    "title": "Find Maximum and Minimum Element",
+    "description": "Problem: Write a program to find the maximum and minimum values present in a given array of integers.\n\nInput:\n- First line: integer n\n- Second line: n integers\n\nOutput:\n- Print the maximum and minimum elements\n\nExample:\nInput:\n6\n3 5 1 9 2 8\n\nOutput:\nMax: 9\nMin: 1"
+  },
+  "solution": {
+    "explanation": "Read all numbers, initialize max and min with the first element, then update them while scanning the rest.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:59:58",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

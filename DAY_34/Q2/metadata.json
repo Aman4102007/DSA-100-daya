@@ -1,0 +1,17 @@
+{
+  "day": 34,
+  "question": "2",
+  "problem": {
+    "name": "Basic Calculator II",
+    "link": "https://leetcode.com/problems/basic-calculator-ii/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Iterate through the string, build numbers, and when an operator or end is reached, apply the previous operator using a stack for multiplication/division, then sum the stack.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:18:39",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

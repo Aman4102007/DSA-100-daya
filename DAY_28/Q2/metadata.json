@@ -1,0 +1,17 @@
+{
+  "day": 28,
+  "question": "2",
+  "problem": {
+    "name": "Palindrome Linked List",
+    "link": "https://leetcode.com/problems/palindrome-linked-list/description/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Copy node values into an array and compare from both ends.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:14:49",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,10 @@
+Day 66 - Question 1
+==================================================
+
+Title: Cycle Detection in Directed Graph
+
+Description:
+Problem: Detect cycle in directed graph using DFS and recursion stack.
+
+Output:
+- YES if cycle exists

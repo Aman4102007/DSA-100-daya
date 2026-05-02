@@ -1,0 +1,16 @@
+{
+  "day": 91,
+  "question": "1",
+  "problem": {
+    "title": "Merge Sort Implementation",
+    "description": "Problem: Implement merge sort (divide, sort halves, merge).\nPrint sorted array."
+  },
+  "solution": {
+    "explanation": "Read array, recursively split and merge, then print sorted values.",
+    "time_complexity": "O(n log n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 01:03:49",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,16 @@
+{
+  "day": 54,
+  "question": "1",
+  "problem": {
+    "title": "Zigzag Traversal",
+    "description": "Problem Statement:\nPerform zigzag (spiral) level order traversal of a binary tree. Alternate levels should be traversed left-to-right and right-to-left.\n\nInput Format:\n- First line contains integer N\n- Second line contains level-order traversal (-1 indicates NULL)\n\nOutput Format:\n- Print traversal in zigzag order\n\nExample:\nInput:\n7\n1 2 3 4 5 6 7\n\nOutput:\n1 3 2 4 5 6 7\n\nExplanation:\nLevel 1 is printed left-to-right, level 2 right-to-left, and so on."
+  },
+  "solution": {
+    "explanation": "Build the tree in arrays using level‑order indices, then use two stacks to alternate left‑to‑right and right‑to‑left traversal.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:31:58",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

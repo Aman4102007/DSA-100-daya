@@ -1,0 +1,16 @@
+{
+  "day": 29,
+  "question": "1",
+  "problem": {
+    "title": "Rotate Linked List Right by k Places",
+    "description": "Problem: Rotate Linked List Right by k Places - Implement using linked list with dynamic memory allocation.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n- Third line: integer k\n\nOutput:\n- Print the linked list elements after rotation, space-separated\n\nExample:\nInput:\n5\n10 20 30 40 50\n2\n\nOutput:\n40 50 10 20 30\n\nExplanation:\nConnect last node to head forming circular list. Traverse to (n-k)th node, set next to NULL, update head to (n-k+1)th node."
+  },
+  "solution": {
+    "explanation": "Rotate by computing new head index (n-k) and printing elements in that order.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:15:06",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

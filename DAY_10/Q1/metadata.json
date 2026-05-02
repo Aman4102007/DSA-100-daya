@@ -1,0 +1,16 @@
+{
+  "day": 10,
+  "question": "1",
+  "problem": {
+    "title": "Check Palindrome",
+    "description": "Problem: Read a string and check if it is a palindrome using two-pointer comparison.\n\nInput:\n- Single line: string s\n\nOutput:\n- Print YES if palindrome, otherwise NO\n\nExample:\nInput:\nlevel\n\nOutput:\nYES\n\nExplanation: String reads same forwards and backwards"
+  },
+  "solution": {
+    "explanation": "Read the string, compare characters from both ends using two pointers, and output YES if all match, otherwise NO.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:52:17",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

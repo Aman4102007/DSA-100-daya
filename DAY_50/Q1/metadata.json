@@ -1,0 +1,16 @@
+{
+  "day": 50,
+  "question": "1",
+  "problem": {
+    "title": "BST Search",
+    "description": "Problem: BST Search\n\nImplement the solution for this problem.\n\nInput:\n- Input specifications\n\nOutput:\n- Output specifications"
+  },
+  "solution": {
+    "explanation": "Build a BST by inserting the given numbers and then search for the target value, printing 1 if found otherwise 0.",
+    "time_complexity": "O(n) average, O(n^2) worst",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:29:02",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

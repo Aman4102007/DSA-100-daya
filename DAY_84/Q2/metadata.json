@@ -1,0 +1,17 @@
+{
+  "day": 84,
+  "question": "2",
+  "problem": {
+    "name": "Find Peak Element",
+    "link": "https://leetcode.com/problems/find-peak-element/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Linear scan: return first index that is greater than its neighbours (or boundary).",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:00:08",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

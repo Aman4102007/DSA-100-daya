@@ -1,0 +1,17 @@
+{
+  "day": 67,
+  "question": "2",
+  "problem": {
+    "name": "Course Schedule II",
+    "link": "https://leetcode.com/problems/course-schedule-ii/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "DFS based topological sort: build adjacency list, visit nodes marking states to detect cycles, push finished nodes onto result stack.",
+    "time_complexity": "O(numCourses + prerequisitesSize)",
+    "space_complexity": "O(numCourses + prerequisitesSize)"
+  },
+  "generated_at": "2026-05-02 00:41:28",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

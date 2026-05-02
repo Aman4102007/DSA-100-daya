@@ -1,0 +1,17 @@
+{
+  "day": 17,
+  "question": "2",
+  "problem": {
+    "name": "Maximum Subarray",
+    "link": "https://leetcode.com/problems/maximum-subarray/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Kadane’s algorithm keeps a running sum and updates the maximum when the sum becomes negative.\n",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:00:11",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

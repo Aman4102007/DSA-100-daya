@@ -1,0 +1,17 @@
+{
+  "day": 93,
+  "question": "2",
+  "problem": {
+    "name": "Insertion Sort List",
+    "link": "https://leetcode.com/problems/insertion-sort-list/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Iterate through the list, inserting each node into its correct position in a new sorted list using a dummy head.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:05:17",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

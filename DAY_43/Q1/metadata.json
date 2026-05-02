@@ -1,0 +1,16 @@
+{
+  "day": 43,
+  "question": "1",
+  "problem": {
+    "title": "Binary Tree Construction (Level Order)",
+    "description": "Problem Statement:\nConstruct a Binary Tree from the given level-order traversal.\n\nInput Format:\n- First line contains integer N\n- Second line contains N space-separated integers (-1 represents NULL)\n\nOutput Format:\n- Print inorder traversal of the constructed tree\n\nExample:\nInput:\n7\n1 2 3 4 5 -1 6\n\nOutput:\n4 2 5 1 3 6"
+  },
+  "solution": {
+    "explanation": "Build the tree from level order using an array of nodes and a queue of indices, then print inorder traversal recursively.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:25:08",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

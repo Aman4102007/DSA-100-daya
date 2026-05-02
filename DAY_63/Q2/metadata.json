@@ -1,0 +1,17 @@
+{
+  "day": 63,
+  "question": "2",
+  "problem": {
+    "name": "Flood Fill",
+    "link": "https://leetcode.com/problems/flood-fill/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Recursively change the starting pixel and its 4‑connected neighbours if they have the original colour.",
+    "time_complexity": "O(m*n)",
+    "space_complexity": "O(m*n) (recursion stack)"
+  },
+  "generated_at": "2026-05-02 00:38:40",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

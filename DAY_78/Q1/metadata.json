@@ -1,0 +1,16 @@
+{
+  "day": 78,
+  "question": "1",
+  "problem": {
+    "title": "Minimum Spanning Tree using Prim’s Algorithm",
+    "description": "Problem Statement\nGiven weighted undirected graph, compute total weight of Minimum Spanning Tree using Prim’s algorithm.\n\nInput Format\nn m\nu v w\n...\n\nOutput Format\nTotal weight of MST.\n\nSample Input\n4 5\n1 2 3\n1 3 5\n2 3 1\n2 4 4\n3 4 2\n\nSample Output\n6\n\nExplanation\nOne possible MST edges: (2-3), (3-4), (1-2)"
+  },
+  "solution": {
+    "explanation": "Use Prim’s algorithm with adjacency matrix; repeatedly add the smallest edge connecting a visited vertex to an unvisited one.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(n^2)"
+  },
+  "generated_at": "2026-05-02 00:56:08",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

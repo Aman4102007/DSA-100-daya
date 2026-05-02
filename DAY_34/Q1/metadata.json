@@ -1,0 +1,16 @@
+{
+  "day": 34,
+  "question": "1",
+  "problem": {
+    "title": "Evaluate Postfix Expression",
+    "description": "Problem: Evaluate Postfix Expression - Implement using linked list with dynamic memory allocation.\n\nInput:\n- Postfix expression with operands and operators\n\nOutput:\n- Print the integer result\n\nExample:\nInput:\n2 3 1 * + 9 -\n\nOutput:\n-4\n\nExplanation:\nUse stack to store operands, apply operators by popping operands, push result back. Final stack top is result."
+  },
+  "solution": {
+    "explanation": "The program uses a linked-list based stack to store operands. When an operator is encountered, it pops the top two elements, performs the operation, and pushes the result back.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:18:19",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

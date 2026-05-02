@@ -1,0 +1,7 @@
+Day 1 - Question 2
+==================================================
+
+Name: Two Sum
+
+Link: https://leetcode.com/problems/two-sum/
+Difficulty: Easy

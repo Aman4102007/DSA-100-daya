@@ -1,0 +1,16 @@
+{
+  "day": 80,
+  "question": "1",
+  "problem": {
+    "title": "Floyd-Warshall Algorithm",
+    "description": "Problem: Given a weighted graph with n vertices, implement the Floyd-Warshall algorithm to compute the shortest distances between every pair of vertices. The graph may contain positive or negative edge weights, but it does not contain any negative weight cycles.\n\nInput:\n- First line: integer n representing the number of vertices\n- Next n lines: n space-separated integers representing the adjacency matrix of the graph\n  (use -1 to indicate no direct edge between two vertices)\n\nOutput:\n- Print the shortest distance matrix where the value at row i and column j represents the shortest distance from vertex i to vertex j\n\nExample:\nInput:\n4\n0 5 -1 10\n-1 0 3 -1\n-1 -1 0 1\n-1 -1 -1 0\n\nOutput:\n0 5 8 9\n-1 0 3 4\n-1 -1 0 1\n-1 -1 -1 0\n\nExplanation:\nThe Floyd-Warshall algorithm works by considering each vertex as an intermediate point and updating the shortest paths between all pairs of vertices. For example, the shortest path from vertex 1 to vertex 3 is improved via vertex 2 with total cost 8. This process is repeated for all vertices, resulting in the final shortest distance matrix."
+  },
+  "solution": {
+    "explanation": "Read adjacency matrix, replace -1 with a large INF, run Floyd‑Warshall, then output distances, printing -1 when a pair is unreachable.",
+    "time_complexity": "O(n^3)",
+    "space_complexity": "O(n^2)"
+  },
+  "generated_at": "2026-05-02 00:57:45",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

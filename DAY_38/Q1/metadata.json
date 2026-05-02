@@ -1,0 +1,16 @@
+{
+  "day": 38,
+  "question": "1",
+  "problem": {
+    "title": "Deque Operations",
+    "description": "Problem: Deque (Double-Ended Queue)\n\nA Deque is a linear data structure that allows insertion and deletion of elements from both the front and the rear. It provides more flexibility than a standard queue or stack.\n\nCommon Operations:\n1. push_front(value): Insert an element at the front of the deque.\n2. push_back(value): Insert an element at the rear of the deque.\n3. pop_front(): Remove an element from the front of the deque.\n4. pop_back(): Remove an element from the rear of the deque.\n5. front(): Return the front element of the deque.\n6. back(): Return the rear element of the deque.\n7. empty(): Check whether the deque is empty.\n8. size(): Return the number of elements in the deque.\n\nAdditional Operations:\n- clear(): Remove all elements from the deque.\n- erase(): Remove one or more elements from the deque.\n- swap(): Swap contents of two deques.\n- emplace_front(): Insert an element at the front without copying.\n- emplace_back(): Insert an element at the rear without copying.\n- resize(): Change the size of the deque.\n- assign(): Replace elements with new values.\n- reverse(): Reverse the order of elements.\n- sort(): Sort the elements in ascending order.\n\nTime Complexity:\n- push_front, push_back, pop_front, pop_back, front, back, empty, size: O(1)\n- clear, erase, resize, assign, reverse: O(n)\n- sort: O(n log n)\n\nInput:\n- Sequence of deque operations with values (if applicable)\n\nOutput:\n- Results of operations such as front, back, size, or the final state of the deque after all operations"
+  },
+  "solution": {
+    "explanation": "Use a circular array to implement a deque; head and tail indices allow O(1) push/pop from both ends and simple queries.",
+    "time_complexity": "O(1) per operation",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:21:57",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 23,
+  "question": "2",
+  "problem": {
+    "name": "List Cycle Detection",
+    "link": "https://leetcode.com/problems/linked-list-cycle/description/s",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Use Floyd’s two‑pointer technique: move one pointer twice as fast as the other; if they meet a cycle exists.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:12:12",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

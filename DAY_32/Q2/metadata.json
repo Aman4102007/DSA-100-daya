@@ -1,0 +1,17 @@
+{
+  "day": 32,
+  "question": "2",
+  "problem": {
+    "name": "Min Stack",
+    "link": "https://leetcode.com/problems/min-stack/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Maintain two parallel arrays: one for values and one for current minimum. Push copies min; pop just decreases size.",
+    "time_complexity": "O(1) per operation",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:17:12",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

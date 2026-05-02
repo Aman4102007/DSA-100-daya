@@ -1,0 +1,17 @@
+{
+  "day": 21,
+  "question": "2",
+  "problem": {
+    "name": "Middle of the Linked List",
+    "link": "https://leetcode.com/problems/middle-of-the-linked-list/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Use fast and slow pointers; when fast reaches end, slow is at middle.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:11:16",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

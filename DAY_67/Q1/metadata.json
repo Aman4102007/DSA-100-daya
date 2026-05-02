@@ -1,0 +1,16 @@
+{
+  "day": 67,
+  "question": "1",
+  "problem": {
+    "title": "Topological Sort (DFS)",
+    "description": "Problem: Print topological ordering of a Directed Acyclic Graph (DAG) using DFS."
+  },
+  "solution": {
+    "explanation": "DFS visits all vertices, pushing each vertex onto a stack after exploring its descendants; reversing the stack gives a topological order.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(n+m)"
+  },
+  "generated_at": "2026-05-02 00:41:01",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

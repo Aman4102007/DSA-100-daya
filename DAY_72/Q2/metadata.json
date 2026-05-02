@@ -1,0 +1,17 @@
+{
+  "day": 72,
+  "question": "2",
+  "problem": {
+    "name": "Travelling Salesman Problem",
+    "link": "https://www.geeksforgeeks.org/problems/travelling-salesman-problem2732/1",
+    "difficulty": "Hard"
+  },
+  "solution": {
+    "explanation": "Dynamic programming over subsets (Held‑Karp) to compute minimal tour cost.",
+    "time_complexity": "O(n^2*2^n)",
+    "space_complexity": "O(n*2^n)"
+  },
+  "generated_at": "2026-05-02 00:49:24",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,16 @@
+{
+  "day": 2,
+  "question": "1",
+  "problem": {
+    "title": "Delete an Element from an Array",
+    "description": "Problem: Write a C program to delete the element at a given 1-based position pos from an array of n integers. Shift remaining elements to the left.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n- Third line: integer pos (1-based position to delete)\n\nOutput:\n- Print the updated array with (n-1) elements, space-separated\n\nExample:\nInput:\n5\n10 20 30 40 50\n2\n\nOutput:\n10 30 40 50\n\nExplanation: Delete position 2 (element 20), remaining elements shift left"
+  },
+  "solution": {
+    "explanation": "Read array, shift elements left starting from the delete position, then print the first n-1 elements.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:48:23",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

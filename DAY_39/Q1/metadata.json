@@ -1,0 +1,16 @@
+{
+  "day": 39,
+  "question": "1",
+  "problem": {
+    "title": "Min Heap Implementation",
+    "description": "Problem Statement:\nImplement a Min Heap using an array where the smallest element is always at the root.\n\nSupported Operations:\n- insert x\n- extractMin\n- peek\n\nInput Format:\n- First line contains integer N\n- Next N lines contain heap operations\n\nOutput Format:\n- Print results of extractMin and peek\n- Print -1 if operation cannot be performed\n\nExample:\nInput:\n6\ninsert 40\ninsert 10\ninsert 30\npeek\nextractMin\npeek\n\nOutput:\n10\n10\n30"
+  },
+  "solution": {
+    "explanation": "Maintain a 1‑indexed array; insert uses sift‑up, extractMin removes root and sifts down, peek just reads root.",
+    "time_complexity": "O(log n) per insert/extract, O(1) peek",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:22:36",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

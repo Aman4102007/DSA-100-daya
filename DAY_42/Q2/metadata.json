@@ -1,0 +1,17 @@
+{
+  "day": 42,
+  "question": "2",
+  "problem": {
+    "name": "Find Median from Data Stream",
+    "link": "https://leetcode.com/problems/find-median-from-data-stream/",
+    "difficulty": "Hard"
+  },
+  "solution": {
+    "explanation": "Store all numbers in a dynamic array; on findMedian copy, sort, and compute median.",
+    "time_complexity": "O(n log n) per findMedian",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:24:44",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

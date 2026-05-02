@@ -1,0 +1,16 @@
+{
+  "day": 51,
+  "question": "1",
+  "problem": {
+    "title": "Lowest Common Ancestor in BST",
+    "description": "Problem Statement:\nFind the Lowest Common Ancestor (LCA) of two nodes in a Binary Search Tree.\n\nInput Format:\n- First line contains integer N\n- Second line contains N space-separated integers\n- Third line contains two node values\n\nOutput Format:\n- Print the LCA value\n\nExample:\nInput:\n7\n6 2 8 0 4 7 9\n2 8\n\nOutput:\n6"
+  },
+  "solution": {
+    "explanation": "Insert values into a BST using an array of nodes, then walk from the root using BST rules to find the lowest common ancestor of the two given values.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:29:36",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 16,
+  "question": "2",
+  "problem": {
+    "name": "Rotate Array",
+    "link": "https://leetcode.com/problems/rotate-array/description/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Shift the array one step to the right k times using a temporary variable for the last element.",
+    "time_complexity": "O(k·n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:59:42",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

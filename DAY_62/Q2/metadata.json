@@ -1,0 +1,17 @@
+{
+  "day": 62,
+  "question": "2",
+  "problem": {
+    "name": "Keys and Rooms",
+    "link": "https://leetcode.com/problems/keys-and-rooms/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Depth‑first traversal using a manual stack; visit each room once and count visited rooms.",
+    "time_complexity": "O(total number of keys)",
+    "space_complexity": "O(n) for visited and stack"
+  },
+  "generated_at": "2026-05-02 00:38:03",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

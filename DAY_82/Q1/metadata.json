@@ -1,0 +1,16 @@
+{
+  "day": 82,
+  "question": "1",
+  "problem": {
+    "title": "Upper Bound & Lower Bound Implementation",
+    "description": "Problem: Given a sorted array of integers and a target value x, implement the Lower Bound and Upper Bound operations using Binary Search.\n\nLower Bound: The index of the first element in the array that is greater than or equal to x.\nUpper Bound: The index of the first element in the array that is strictly greater than x.\n\nInput:\n- First line: integer n representing the size of the array\n- Second line: n space-separated sorted integers\n- Third line: integer x (the target value)\n\nOutput:\n- Print two integers:\n  1) Index of the lower bound of x\n  2) Index of the upper bound of x\n\nExample:\nInput:\n7\n1 2 4 4 4 5 7\n4\n\nOutput:\n2 5\n\nExplanation:\nFor the given array [1, 2, 4, 4, 4, 5, 7] and x = 4:\n- The lower bound is at index 2, which is the first occurrence of 4.\n- The upper bound is at index 5, which is the first element greater than 4 (i.e., 5).\nBinary Search is used to find both bounds efficiently in O(log n) time."
+  },
+  "solution": {
+    "explanation": "Binary search is used twice: once to find the first index with value >= x (lower bound) and once for the first index with value > x (upper bound).",
+    "time_complexity": "O(log n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:58:54",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

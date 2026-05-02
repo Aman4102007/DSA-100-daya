@@ -1,0 +1,7 @@
+Day 86 - Question 2
+==================================================
+
+Name: Sqrt(x)
+
+Link: https://leetcode.com/problems/sqrtx/
+Difficulty: Easy

@@ -1,0 +1,17 @@
+{
+  "day": 20,
+  "question": "2",
+  "problem": {
+    "name": "3Sum",
+    "link": "https://leetcode.com/problems/3sum/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Sort the array, then for each element use two‑pointer search to find pairs that sum to the negative of that element, skipping duplicates.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:10:44",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

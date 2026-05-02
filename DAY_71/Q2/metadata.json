@@ -1,0 +1,17 @@
+{
+  "day": 71,
+  "question": "2",
+  "problem": {
+    "name": "Min Cost to Connect All Points",
+    "link": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Prim’s algorithm in O(n²) using Manhattan distance, no extra memory beyond fixed arrays.",
+    "time_complexity": "O(n²)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:48:49",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

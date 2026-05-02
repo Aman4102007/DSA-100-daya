@@ -1,0 +1,16 @@
+{
+  "day": 42,
+  "question": "1",
+  "problem": {
+    "title": "Reverse a Queue Using Stack",
+    "description": "Problem Statement:\nGiven a queue of integers, reverse the queue using a stack.\n\nInput Format:\n- First line contains integer N\n- Second line contains N space-separated integers\n\nOutput Format:\n- Print the reversed queue\n\nExample:\nInput:\n5\n10 20 30 40 50\n\nOutput:\n50 40 30 20 10"
+  },
+  "solution": {
+    "explanation": "Read the queue into an array, push all elements onto a stack, then pop them to print in reverse order.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:24:23",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

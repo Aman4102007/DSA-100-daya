@@ -1,0 +1,7 @@
+Day 75 - Question 2
+==================================================
+
+Name: Is Graph Bipartite?
+
+Link: https://leetcode.com/problems/is-graph-bipartite/
+Difficulty: Medium

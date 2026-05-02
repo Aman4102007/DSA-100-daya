@@ -1,0 +1,7 @@
+Day 3 - Question 2
+==================================================
+
+Name: Missing number in array
+
+Link: https://practice.geeksforgeeks.org/problems/missing-number-in-array/0
+Difficulty: Easy

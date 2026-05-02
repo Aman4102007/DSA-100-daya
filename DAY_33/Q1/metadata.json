@@ -1,0 +1,16 @@
+{
+  "day": 33,
+  "question": "1",
+  "problem": {
+    "title": "Infix to Postfix Conversion",
+    "description": "Problem: Convert an infix expression to postfix notation using stack.\n\nInput:\n- Single line: infix expression (operands are single characters)\n\nOutput:\n- Print the postfix expression\n\nExample:\nInput:\nA+B*C\n\nOutput:\nABC*+\n\nExplanation:\nOperator precedence: * > +\nUse stack to handle operator precedence and associativity"
+  },
+  "solution": {
+    "explanation": "Scan the infix string, push operands to output, use a stack for operators respecting precedence and parentheses, then pop remaining operators.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:17:33",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

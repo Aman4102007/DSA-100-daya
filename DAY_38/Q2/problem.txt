@@ -1,0 +1,7 @@
+Day 38 - Question 2
+==================================================
+
+Name: Sliding Window Maximum
+
+Link: https://leetcode.com/problems/sliding-window-maximum/
+Difficulty: Hard

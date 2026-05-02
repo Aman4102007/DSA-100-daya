@@ -1,0 +1,16 @@
+{
+  "day": 30,
+  "question": "1",
+  "problem": {
+    "title": "Polynomial Using Linked List",
+    "description": "Problem: Polynomial Using Linked List - Implement using linked list with dynamic memory allocation.\n\nInput:\n- First line: integer n (number of terms)\n- Next n lines: two integers (coefficient and exponent)\n\nOutput:\n- Print polynomial in standard form, e.g., 10x^4 + 20x^3 + 30x^2 + 40x + 50\n\nExample:\nInput:\n5\n10 4\n20 3\n30 2\n40 1\n50 0\n\nOutput:\n10x^4 + 20x^3 + 30x^2 + 40x + 50\n\nExplanation:\nEach node stores coefficient and exponent. Traverse nodes to print polynomial in decreasing exponent order."
+  },
+  "solution": {
+    "explanation": "Read terms into arrays and print them in input order separated by ' + '.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:15:39",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 36,
+  "question": "2",
+  "problem": {
+    "name": "Design Circular Deque",
+    "link": "https://leetcode.com/problems/design-circular-deque/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Array based circular buffer with head, tail, size and capacity; operations are O(1).",
+    "time_complexity": "O(1)",
+    "space_complexity": "O(k)"
+  },
+  "generated_at": "2026-05-02 00:20:46",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

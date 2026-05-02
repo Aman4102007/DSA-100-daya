@@ -1,0 +1,17 @@
+{
+  "day": 51,
+  "question": "2",
+  "problem": {
+    "name": "Lowest Common Ancestor of a BST",
+    "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Iteratively move down the BST; if both nodes are left of current, go left; if both right, go right; otherwise current is LCA.",
+    "time_complexity": "O(h)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:29:52",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

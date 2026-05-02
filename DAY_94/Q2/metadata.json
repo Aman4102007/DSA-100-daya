@@ -1,0 +1,17 @@
+{
+  "day": 94,
+  "question": "2",
+  "problem": {
+    "name": "Relative Sort Array",
+    "link": "https://leetcode.com/problems/relative-sort-array/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Count occurrences of each value, output arr2 elements in order using counts, then output remaining values in ascending order.",
+    "time_complexity": "O(n + m + C) where C=1001",
+    "space_complexity": "O(C)"
+  },
+  "generated_at": "2026-05-02 01:05:54",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

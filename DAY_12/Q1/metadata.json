@@ -1,0 +1,16 @@
+{
+  "day": 12,
+  "question": "1",
+  "problem": {
+    "title": "Check Symmetric Matrix",
+    "description": "Problem: Write a program to check whether a given matrix is symmetric. A matrix is said to be symmetric if it is a square matrix and is equal to its transpose (i.e., element at position [i][j] is equal to element at position [j][i] for all valid i and j).\n\nInput:\n- First line: two integers m and n representing the number of rows and columns\n- Next m lines: n integers each representing the elements of the matrix\n\nOutput:\n- Print \"Symmetric Matrix\" if the given matrix is symmetric\n- Otherwise, print \"Not a Symmetric Matrix\"\n\nExample:\nInput:\n3 3\n1 2 3\n2 4 5\n3 5 6\n\nOutput:\nSymmetric Matrix\n\nExplanation:\nThe matrix is square (3 × 3) and for every i and j, element[i][j] = element[j][i].\n\nTest Cases:\n\nTest Case 1:\nInput:\n2 2\n1 2\n2 1\nOutput:\nSymmetric Matrix\n\nTest Case 2:\nInput:\n3 3\n1 0 1\n2 3 4\n1 4 5\nOutput:\nNot a Symmetric Matrix\n\nTest Case 3:\nInput:\n2 3\n1 2 3\n4 5 6\nOutput:\nNot a Symmetric Matrix"
+  },
+  "solution": {
+    "explanation": "Read matrix, check if square, then compare upper‑triangular with lower‑triangular entries.",
+    "time_complexity": "O(m*n)",
+    "space_complexity": "O(m*n)"
+  },
+  "generated_at": "2026-05-01 23:53:24",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

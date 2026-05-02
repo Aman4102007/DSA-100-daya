@@ -1,0 +1,7 @@
+Day 77 - Question 2
+==================================================
+
+Name: Critical Connections in a Network
+
+Link: https://leetcode.com/problems/critical-connections-in-a-network/
+Difficulty: Hard

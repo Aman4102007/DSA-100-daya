@@ -1,0 +1,16 @@
+{
+  "day": 45,
+  "question": "1",
+  "problem": {
+    "title": "Height of a Binary Tree",
+    "description": "Problem Statement:\nFind the height (maximum depth) of a given binary tree.\n\nInput Format:\n- First line contains integer N\n- Second line contains level-order traversal (-1 represents NULL)\n\nOutput Format:\n- Print the height of the tree\n\nExample:\nInput:\n7\n1 2 3 4 5 -1 -1\n\nOutput:\n3"
+  },
+  "solution": {
+    "explanation": "Recursively compute height from array indices treating -1 as NULL; height of empty node is 0, otherwise 1 plus max of children.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:26:17",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

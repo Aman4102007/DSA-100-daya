@@ -1,0 +1,7 @@
+Day 10 - Question 2
+==================================================
+
+Name: Intersection of two arrays
+
+Link: https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
+Difficulty: Easy

@@ -1,0 +1,16 @@
+{
+  "day": 41,
+  "question": "1",
+  "problem": {
+    "title": "Queue Using Linked List",
+    "description": "Problem Statement:\nImplement a Queue using a linked list supporting enqueue and dequeue operations.\n\nInput Format:\n- First line contains integer N\n- Next N lines contain queue operations\n\nOutput Format:\n- Print dequeued elements\n- Print -1 if dequeue is attempted on an empty queue"
+  },
+  "solution": {
+    "explanation": "Use a static array as a circular queue: enqueue adds to rear, dequeue removes from front, printing -1 when empty.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:23:53",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

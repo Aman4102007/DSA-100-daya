@@ -1,0 +1,17 @@
+{
+  "day": 69,
+  "question": "2",
+  "problem": {
+    "name": "Network Delay Time",
+    "link": "https://leetcode.com/problems/network-delay-time/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Use Floyd‑Warshall to compute all‑pairs shortest paths, then take the maximum distance from source K.",
+    "time_complexity": "O(N^3)",
+    "space_complexity": "O(N^2)"
+  },
+  "generated_at": "2026-05-02 00:46:48",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

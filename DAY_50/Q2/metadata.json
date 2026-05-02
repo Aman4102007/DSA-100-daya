@@ -1,0 +1,17 @@
+{
+  "day": 50,
+  "question": "2",
+  "problem": {
+    "name": "Search in BST",
+    "link": "https://leetcode.com/problems/search-in-a-binary-search-tree/description/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Recursively traverse left or right depending on BST property until node is found or NULL.",
+    "time_complexity": "O(h)",
+    "space_complexity": "O(h)"
+  },
+  "generated_at": "2026-05-02 00:29:15",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 10,
+  "question": "2",
+  "problem": {
+    "name": "Intersection of two arrays",
+    "link": "https://leetcode.com/problems/intersection-of-two-arrays-ii/description/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Brute‑force: for each element in nums1 scan nums2, add match to result and mark that nums2 element as used.",
+    "time_complexity": "O(n*m)",
+    "space_complexity": "O(min(n,m))"
+  },
+  "generated_at": "2026-05-01 23:52:39",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

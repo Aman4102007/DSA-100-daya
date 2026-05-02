@@ -1,0 +1,17 @@
+{
+  "day": 4,
+  "question": "2",
+  "problem": {
+    "name": "Remove Element",
+    "link": "https://leetcode.com/problems/remove-element/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Iterate with two pointers, keep writing non‑val elements to front.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:49:37",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

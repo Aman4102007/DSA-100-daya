@@ -1,0 +1,17 @@
+{
+  "day": 27,
+  "question": "2",
+  "problem": {
+    "name": "Remove Cycle in Linked List",
+    "link": "https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Use Floyd’s cycle detection to find meeting point, then find loop start and break the link.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:14:17",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

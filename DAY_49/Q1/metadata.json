@@ -1,0 +1,16 @@
+{
+  "day": 49,
+  "question": "1",
+  "problem": {
+    "title": "BST Insert",
+    "description": "Problem: BST Insert\n\nImplement the solution for this problem.\n\nInput:\n- Input specifications\n\nOutput:\n- Output specifications"
+  },
+  "solution": {
+    "explanation": "Insert each number into a BST and print the inorder traversal.",
+    "time_complexity": "O(n^2) worst case, O(n log n) average",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:28:26",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

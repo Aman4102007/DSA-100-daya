@@ -1,0 +1,17 @@
+{
+  "day": 7,
+  "question": "2",
+  "problem": {
+    "name": "Fibonacci Number",
+    "link": "https://leetcode.com/problems/fibonacci-number/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Recursive brute‑force: base cases for 0 and 1, otherwise sum of previous two.",
+    "time_complexity": "O(2^n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-01 23:51:08",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

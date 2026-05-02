@@ -1,0 +1,17 @@
+{
+  "day": 75,
+  "question": "2",
+  "problem": {
+    "name": "Is Graph Bipartite?",
+    "link": "https://leetcode.com/problems/is-graph-bipartite/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Breadth‑first search coloring each component; if a conflict appears the graph isn’t bipartite.",
+    "time_complexity": "O(V+E)",
+    "space_complexity": "O(V)"
+  },
+  "generated_at": "2026-05-02 00:54:23",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

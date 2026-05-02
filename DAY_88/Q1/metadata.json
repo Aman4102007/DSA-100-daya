@@ -1,0 +1,16 @@
+{
+  "day": 88,
+  "question": "1",
+  "problem": {
+    "title": "Aggressive Cows Problem",
+    "description": "Problem Statement\nGiven n stalls located at different positions along a straight line and k cows, place the cows in the stalls such that the minimum distance between any two cows is maximized.\n\nThis is an optimization problem where binary search on the answer is required.\n\nInput Format\nn k\nn space-separated integers representing stall positions\n\nOutput Format\nPrint the maximum possible minimum distance between any two cows.\n\nSample Input\n5 3\n1 2 8 4 9\n\nSample Output\n3\n\nExplanation\nCows can be placed at positions 1, 4, and 8. The minimum distance between any two cows is 3, which is the maximum possible."
+  },
+  "solution": {
+    "explanation": "Sort stalls, binary search on distance, greedily place cows to check feasibility.",
+    "time_complexity": "O(n log n + n log D)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:01:56",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 77,
+  "question": "2",
+  "problem": {
+    "name": "Critical Connections in a Network",
+    "link": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "difficulty": "Hard"
+  },
+  "solution": {
+    "explanation": "Uses Tarjan’s algorithm to find bridges: DFS assigns discovery times and low links; an edge (u,v) is critical if low[v]>disc[u].",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(n+m)"
+  },
+  "generated_at": "2026-05-02 00:55:50",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,16 @@
+{
+  "day": 25,
+  "question": "1",
+  "problem": {
+    "title": "Count Occurrences of an Element in Linked List",
+    "description": "Problem: Count Occurrences of an Element in Linked List - Implement using linked list with dynamic memory allocation.\n\nInput:\n- First line: integer n (number of nodes)\n- Second line: n space-separated integers (linked list elements)\n- Third line: integer key (element to be counted)\n\nOutput:\n- Print the number of times the key appears in the linked list\n\nExample:\nInput:\n6\n10 20 30 20 40 20\n20\n\nOutput:\n3\n\nExplanation:\nTraverse the linked list from head to end. Each time a node's data matches the given key, increment a counter. After traversal, print the final count."
+  },
+  "solution": {
+    "explanation": "Read the list into an array, iterate once to count matches with the key, and print the count.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:12:55",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

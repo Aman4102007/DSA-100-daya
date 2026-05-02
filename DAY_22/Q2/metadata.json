@@ -1,0 +1,17 @@
+{
+  "day": 22,
+  "question": "2",
+  "problem": {
+    "name": "Reverse Linked List",
+    "link": "https://leetcode.com/problems/reverse-linked-list/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Iteratively reverse pointers while traversing the list.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:11:43",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

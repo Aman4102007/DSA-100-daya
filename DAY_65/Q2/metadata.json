@@ -1,0 +1,17 @@
+{
+  "day": 65,
+  "question": "2",
+  "problem": {
+    "name": "Graph Cycle Detection",
+    "link": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "DFS with parent tracking; if a visited vertex is encountered again that isn’t the parent, a cycle exists.",
+    "time_complexity": "O(V+E)",
+    "space_complexity": "O(V)"
+  },
+  "generated_at": "2026-05-02 00:39:51",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

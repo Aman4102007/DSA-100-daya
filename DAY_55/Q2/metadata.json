@@ -1,0 +1,17 @@
+{
+  "day": 55,
+  "question": "2",
+  "problem": {
+    "name": "Binary Tree Right Side View",
+    "link": "https://leetcode.com/problems/binary-tree-right-side-view/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Breadth‑first traversal, record the last node of each level (rightmost).",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:33:26",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

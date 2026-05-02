@@ -1,0 +1,17 @@
+{
+  "day": 9,
+  "question": "2",
+  "problem": {
+    "name": "Reverse String",
+    "link": "https://leetcode.com/problems/reverse-string/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Swap characters from ends moving inward using two pointers.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:52:03",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

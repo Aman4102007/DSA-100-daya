@@ -1,0 +1,7 @@
+Day 69 - Question 2
+==================================================
+
+Name: Network Delay Time
+
+Link: https://leetcode.com/problems/network-delay-time/
+Difficulty: Medium

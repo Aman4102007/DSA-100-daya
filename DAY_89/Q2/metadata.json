@@ -1,0 +1,17 @@
+{
+  "day": 89,
+  "question": "2",
+  "problem": {
+    "name": "Capacity To Ship Packages Within D Days",
+    "link": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Binary search on capacity; simulate days needed for a given capacity.",
+    "time_complexity": "O(n log S)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:03:00",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

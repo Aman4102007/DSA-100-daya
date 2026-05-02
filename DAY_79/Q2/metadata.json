@@ -1,0 +1,17 @@
+{
+  "day": 79,
+  "question": "2",
+  "problem": {
+    "name": "Strongly Connected Components",
+    "link": "https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Perform Kosaraju: first DFS to get finish order, reverse graph, second DFS in reverse order to count components.",
+    "time_complexity": "O(V+E)",
+    "space_complexity": "O(V+E)"
+  },
+  "generated_at": "2026-05-02 00:57:27",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

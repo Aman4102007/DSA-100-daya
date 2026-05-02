@@ -1,0 +1,17 @@
+{
+  "day": 60,
+  "question": "2",
+  "problem": {
+    "name": "Binary Tree Cameras",
+    "link": "https://leetcode.com/problems/binary-tree-cameras/",
+    "difficulty": "Hard"
+  },
+  "solution": {
+    "explanation": "DFS returns 0=has camera,1=covered,2=needs camera; place camera when child needs one, count at root if still needed.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(h)"
+  },
+  "generated_at": "2026-05-02 00:36:42",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

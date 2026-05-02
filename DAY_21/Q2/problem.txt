@@ -1,0 +1,7 @@
+Day 21 - Question 2
+==================================================
+
+Name: Middle of the Linked List
+
+Link: https://leetcode.com/problems/middle-of-the-linked-list/
+Difficulty: Easy

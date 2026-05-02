@@ -1,0 +1,17 @@
+{
+  "day": 70,
+  "question": "2",
+  "problem": {
+    "name": "Cheapest Flights Within K Stops",
+    "link": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Bellman–Ford style relaxation up to k+1 times, keeping previous distances to avoid using updated values in the same iteration.",
+    "time_complexity": "O(k * E)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:48:14",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

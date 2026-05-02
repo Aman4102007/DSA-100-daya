@@ -1,0 +1,7 @@
+Day 48 - Question 2
+==================================================
+
+Name: Sum of Left Leaves
+
+Link: https://leetcode.com/problems/sum-of-left-leaves/
+Difficulty: Easy

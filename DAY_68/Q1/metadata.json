@@ -1,0 +1,16 @@
+{
+  "day": 68,
+  "question": "1",
+  "problem": {
+    "title": "Topological Sort (Kahnâ€™s BFS Algorithm)",
+    "description": "Problem: Implement topological sorting using in-degree array and queue (Kahnâ€™s Algorithm)."
+  },
+  "solution": {
+    "explanation": "Read graph, compute indegrees, enqueue zero‑indegree nodes, repeatedly dequeue, output, and decrease indegrees of adjacent nodes.",
+    "time_complexity": "O(n+m)",
+    "space_complexity": "O(n+m)"
+  },
+  "generated_at": "2026-05-02 00:41:47",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

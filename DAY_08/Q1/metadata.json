@@ -1,0 +1,16 @@
+{
+  "day": 8,
+  "question": "1",
+  "problem": {
+    "title": "Compute Power Using Recursion",
+    "description": "Problem: Given integers a and b, compute a^b using recursion without using pow() function.\n\nInput:\n- Two space-separated integers a and b\n\nOutput:\n- Print a raised to power b\n\nExample:\nInput:\n2 5\n\nOutput:\n32\n\nExplanation: 2^5 = 2 * 2 * 2 * 2 * 2 = 32"
+  },
+  "solution": {
+    "explanation": "Recursively multiply a by itself b times, returning 1 when b reaches 0.",
+    "time_complexity": "O(b)",
+    "space_complexity": "O(b)"
+  },
+  "generated_at": "2026-05-01 23:51:21",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 86,
+  "question": "2",
+  "problem": {
+    "name": "Sqrt(x)",
+    "link": "https://leetcode.com/problems/sqrtx/",
+    "difficulty": "Easy"
+  },
+  "solution": {
+    "explanation": "Incrementally test squares until exceeding x, then return previous integer.",
+    "time_complexity": "O(sqrt(x))",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:01:05",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

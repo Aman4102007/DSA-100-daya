@@ -1,0 +1,16 @@
+{
+  "day": 3,
+  "question": "1",
+  "problem": {
+    "title": "Linear Search with Comparison Count",
+    "description": "Problem: Implement linear search to find key k in an array. Count and display the number of comparisons performed.\n\nInput:\n- First line: integer n (array size)\n- Second line: n space-separated integers\n- Third line: integer k (key to search)\n\nOutput:\n- Line 1: \"Found at index i\" OR \"Not Found\"\nLine 2: \"Comparisons = c\"\n\nExample:\nInput:\n5\n10 20 30 40 50\n30\n\nOutput:\nFound at index 2\nComparisons = 3\n\nExplanation: Compared with 10, 20, 30 (found at index 2 with 3 comparisons)"
+  },
+  "solution": {
+    "explanation": "Linear scan counts each comparison; stop when key is found or end of array.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:48:53",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

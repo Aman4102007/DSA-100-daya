@@ -1,0 +1,16 @@
+{
+  "day": 21,
+  "question": "1",
+  "problem": {
+    "title": "Create and Traverse Singly Linked List",
+    "description": "Problem: Create and Traverse Singly Linked List\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n\nOutput:\n- Print the result\n\nExample:\nInput:\n5\n10 20 30 40 50\n\nOutput:\n10 20 30 40 50"
+  },
+  "solution": {
+    "explanation": "Create an array of node structs, link them sequentially, then traverse from head printing data.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:11:04",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 41,
+  "question": "2",
+  "problem": {
+    "name": "Task Scheduler",
+    "link": "https://leetcode.com/problems/task-scheduler/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Count task frequencies, find the most frequent count and how many tasks share it; compute idle slots using (max-1)*(n+1)+cnt and return the max of that and total tasks.",
+    "time_complexity": "O(tasksSize + 26)",
+    "space_complexity": "O(26)"
+  },
+  "generated_at": "2026-05-02 00:24:08",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,7 @@
+Day 32 - Question 2
+==================================================
+
+Name: Min Stack
+
+Link: https://leetcode.com/problems/min-stack/
+Difficulty: Medium

@@ -1,0 +1,16 @@
+{
+  "day": 53,
+  "question": "1",
+  "problem": {
+    "title": "Print Binary Tree Vertical Order",
+    "description": "Problem Statement:\nGiven a binary tree, print its vertical order traversal. Nodes that lie on the same vertical line should be printed together from top to bottom and from left to right.\n\nInput Format:\n- First line contains integer N (number of nodes)\n- Second line contains N space-separated integers representing level-order traversal (-1 indicates NULL)\n\nOutput Format:\n- Print nodes column by column from leftmost to rightmost vertical line\n\nExample:\nInput:\n7\n1 2 3 4 5 6 7\n\nOutput:\n4\n2\n1 5 6\n3\n7\n\nExplanation:\nVertical lines are formed based on horizontal distance from root. Nodes sharing the same distance are printed together."
+  },
+  "solution": {
+    "explanation": "Build the tree from level‑order input, compute horizontal distance for each node with BFS, then print nodes grouped by distance from leftmost to rightmost.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:31:09",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

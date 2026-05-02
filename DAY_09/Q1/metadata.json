@@ -1,0 +1,16 @@
+{
+  "day": 9,
+  "question": "1",
+  "problem": {
+    "title": "Mirror the Code Name",
+    "description": "Problem: A secret system stores code names in forward order. To display them in mirror format, you must transform the given code name so that its characters appear in the opposite order.\n\nInput:\n- Single line: a lowercase string containing only alphabetic characters (no spaces)\n\nOutput:\n- Print the transformed code name after applying the mirror operation\n\nExample:\nInput:\nhello\n\nOutput:\nolleh\n\nExplanation: The first character moves to the last position, the second to the second-last, and so on until the entire string is mirrored"
+  },
+  "solution": {
+    "explanation": "Read the string, find its length, then output characters in reverse order.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:51:48",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 46,
+  "question": "2",
+  "problem": {
+    "name": "Binary Tree Level Order Traversal",
+    "link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Breadth‑first search using a simple array queue, storing each level’s values in a new array and recording its size.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:27:11",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

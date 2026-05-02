@@ -1,0 +1,16 @@
+{
+  "day": 60,
+  "question": "1",
+  "problem": {
+    "title": "Validate Min-Heap",
+    "description": "Problem Statement:\nCheck whether a given binary tree satisfies the Min-Heap property.\n\nInput Format:\n- First line contains integer N\n- Second line contains level-order traversal\n\nOutput Format:\n- Print YES if valid Min-Heap, otherwise NO\n\nExample:\nInput:\n7\n1 3 5 7 9 8 10\n\nOutput:\nYES\n\nExplanation:\nEach parent node must be smaller than its children."
+  },
+  "solution": {
+    "explanation": "Read the tree into a 1‑indexed array and for each internal node check that it is not larger than its children.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:36:26",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

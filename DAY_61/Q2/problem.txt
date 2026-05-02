@@ -1,0 +1,7 @@
+Day 61 - Question 2
+==================================================
+
+Name: Number of Provinces
+
+Link: https://leetcode.com/problems/number-of-provinces/
+Difficulty: Medium

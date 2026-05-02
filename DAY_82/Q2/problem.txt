@@ -1,0 +1,7 @@
+Day 82 - Question 2
+==================================================
+
+Name: Search Insert Position
+
+Link: https://leetcode.com/problems/search-insert-position/
+Difficulty: Easy

@@ -1,0 +1,7 @@
+Day 24 - Question 2
+==================================================
+
+Name: Remove Linked List Elements
+
+Link: https://leetcode.com/problems/remove-linked-list-elements/
+Difficulty: Easy

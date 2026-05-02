@@ -1,0 +1,16 @@
+{
+  "day": 26,
+  "question": "1",
+  "problem": {
+    "title": "Doubly Linked List Insertion and Traversal",
+    "description": "Problem: Doubly Linked List Insertion and Traversal - Implement using linked list with dynamic memory allocation.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n\nOutput:\n- Print the linked list elements in forward order, space-separated\n\nExample:\nInput:\n5\n10 20 30 40 50\n\nOutput:\n10 20 30 40 50\n\nExplanation:\nEach node has data, next, prev. Insert nodes sequentially, traverse from head using next pointer."
+  },
+  "solution": {
+    "explanation": "Read numbers into an array and print them in order, mimicking a forward traversal of a doubly linked list.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:13:22",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

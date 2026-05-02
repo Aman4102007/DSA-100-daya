@@ -1,0 +1,17 @@
+{
+  "day": 76,
+  "question": "2",
+  "problem": {
+    "name": "Clone Graph",
+    "link": "https://leetcode.com/problems/clone-graph/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "DFS with a fixed array map (values 1..100) to avoid cycles, allocating new nodes and copying neighbor lists.",
+    "time_complexity": "O(V+E)",
+    "space_complexity": "O(V)"
+  },
+  "generated_at": "2026-05-02 00:55:05",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

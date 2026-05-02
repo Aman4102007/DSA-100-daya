@@ -1,0 +1,15 @@
+Day 50 - Question 1
+==================================================
+
+Title: BST Search
+
+Description:
+Problem: BST Search
+
+Implement the solution for this problem.
+
+Input:
+- Input specifications
+
+Output:
+- Output specifications

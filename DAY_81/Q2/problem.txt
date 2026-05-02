@@ -1,0 +1,7 @@
+Day 81 - Question 2
+==================================================
+
+Name: Binary Search
+
+Link: https://leetcode.com/problems/binary-search/
+Difficulty: Easy

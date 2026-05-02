@@ -1,0 +1,16 @@
+{
+  "day": 1,
+  "question": "1",
+  "problem": {
+    "title": "Insert an Element in an Array",
+    "description": "Problem: Write a C program to insert an element x at a given 1-based position pos in an array of n integers. Shift existing elements to the right to make space.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers (the array)\n- Third line: integer pos (1-based position)\n- Fourth line: integer x (element to insert)\n\nOutput:\n- Print the updated array (n+1 integers) in a single line, space-separated\n\nExample:\nInput:\n5\n1 2 4 5 6\n3\n3\n\nOutput:\n1 2 3 4 5 6\n\nExplanation: Insert 3 at position 3, elements [4,5,6] shift right"
+  },
+  "solution": {
+    "explanation": "Read array, shift elements right from the end to the insertion point, place the new element, then print the expanded array.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:47:54",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

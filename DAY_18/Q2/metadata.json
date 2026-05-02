@@ -1,0 +1,17 @@
+{
+  "day": 18,
+  "question": "2",
+  "problem": {
+    "name": "Product of Array Except Self",
+    "link": "https://leetcode.com/problems/product-of-array-except-self/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Compute prefix products, store in ans, then multiply by suffix products in reverse pass.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:00:43",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

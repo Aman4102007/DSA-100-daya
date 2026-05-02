@@ -1,0 +1,16 @@
+{
+  "day": 86,
+  "question": "1",
+  "problem": {
+    "title": "Square Root using Binary Search",
+    "description": "Problem: Find the integer square root of a given non-negative integer using Binary Search. The integer square root of a number is defined as the greatest integer whose square is less than or equal to the given number.\n\nInput:\n- First line: an integer n\n\nOutput:\n- Print the integer square root of n\n\nExamples:\nInput:\n64\n\nOutput:\n8\n\nInput:\n20\n\nOutput:\n4\n\nInput:\n1\n\nOutput:\n1\n\nExplanation:\nBinary Search is applied on the range 0 to n. At each step, the middle value is squared and compared with n. If mid * mid equals n, mid is the square root. If mid * mid is less than n, search continues in the right half; otherwise, in the left half. The final answer is the largest integer whose square does not exceed n."
+  },
+  "solution": {
+    "explanation": "Binary search on [0,n] keeping the largest mid whose square does not exceed n.",
+    "time_complexity": "O(log n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:00:53",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

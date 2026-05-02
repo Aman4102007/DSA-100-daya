@@ -1,0 +1,16 @@
+{
+  "day": 24,
+  "question": "1",
+  "problem": {
+    "title": "Delete First Occurrence of a Key",
+    "description": "Problem: Delete First Occurrence of a Key - Implement using linked list with dynamic memory allocation.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n- Third line: integer key\n\nOutput:\n- Print the linked list elements after deletion, space-separated\n\nExample:\nInput:\n5\n10 20 30 40 50\n30\n\nOutput:\n10 20 40 50\n\nExplanation:\nTraverse list, find first node with key, remove it by adjusting previous node's next pointer."
+  },
+  "solution": {
+    "explanation": "Find first index of key, shift following elements left, reduce size, then print list.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:12:28",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 73,
+  "question": "2",
+  "problem": {
+    "name": "Redundant Connection",
+    "link": "https://leetcode.com/problems/redundant-connection/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Uses a Disjoint Set Union (DSU) approach to detect the first edge that connects two nodes already in the same component.",
+    "time_complexity": "O(N^2) in worst case without path compression, but typically efficient for N=1000",
+    "space_complexity": "O(N)"
+  },
+  "generated_at": "2026-05-02 00:53:16",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

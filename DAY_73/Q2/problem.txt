@@ -1,0 +1,7 @@
+Day 73 - Question 2
+==================================================
+
+Name: Redundant Connection
+
+Link: https://leetcode.com/problems/redundant-connection/
+Difficulty: Medium

@@ -1,0 +1,7 @@
+Day 88 - Question 2
+==================================================
+
+Name: Magnetic Force Between Two Balls
+
+Link: https://leetcode.com/problems/magnetic-force-between-two-balls/
+Difficulty: Medium

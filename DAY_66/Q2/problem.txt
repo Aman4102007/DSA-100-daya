@@ -1,0 +1,7 @@
+Day 66 - Question 2
+==================================================
+
+Name: Course Schedule
+
+Link: https://leetcode.com/problems/course-schedule/
+Difficulty: Medium

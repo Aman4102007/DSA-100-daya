@@ -1,0 +1,16 @@
+{
+  "day": 83,
+  "question": "1",
+  "problem": {
+    "title": "Implement Selection Sort",
+    "description": "Problem: Implement Selection Sort - Implement the algorithm.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n\nOutput:\n- Print the sorted array or search result\n\nExample:\nInput:\n5\n64 34 25 12 22\n\nOutput:\n12 22 25 34 64"
+  },
+  "solution": {
+    "explanation": "Find the minimum element in the unsorted part and swap it with the first unsorted element, repeating until sorted.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:59:23",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

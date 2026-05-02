@@ -1,0 +1,7 @@
+Day 84 - Question 2
+==================================================
+
+Name: Find Peak Element
+
+Link: https://leetcode.com/problems/find-peak-element/
+Difficulty: Medium

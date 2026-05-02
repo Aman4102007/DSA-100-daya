@@ -1,0 +1,7 @@
+Day 2 - Question 2
+==================================================
+
+Name: Best Time to Buy and Sell Stock
+
+Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+Difficulty: Easy

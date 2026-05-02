@@ -1,0 +1,7 @@
+Day 26 - Question 2
+==================================================
+
+Name: Design Linked List
+
+Link: https://leetcode.com/problems/design-linked-list/
+Difficulty: Medium

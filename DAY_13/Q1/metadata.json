@@ -1,0 +1,16 @@
+{
+  "day": 13,
+  "question": "1",
+  "problem": {
+    "title": "Boundary-to-Center Matrix Walk",
+    "description": "Problem: You are given a rectangular matrix of integers. Starting from the outer boundary, traverse the matrix in a clockwise manner and continue moving inward layer by layer until all elements are visited.\n\nInput:\n- First line: two integers r and c representing the number of rows and columns\n- Next r lines: c integers each representing the matrix elements\n\nOutput:\n- Print all visited elements in the order of traversal, separated by spaces\n\nExample:\nInput:\n3 3\n1 2 3\n4 5 6\n7 8 9\n\nOutput:\n1 2 3 6 9 8 7 4 5\n\nExplanation:\nThe traversal begins along the top row, proceeds down the rightmost column, then moves across the bottom row in reverse, and finally goes up the leftmost column. The same pattern repeats for the inner submatrix.\n\nTest Cases:\n\nTest Case 1:\nInput:\n2 3\n1 2 3\n4 5 6\nOutput:\n1 2 3 6 5 4\n\nTest Case 2:\nInput:\n3 1\n7\n8\n9\nOutput:\n7 8 9"
+  },
+  "solution": {
+    "explanation": "Traverse the matrix layer by layer using four boundaries, printing elements while moving right, down, left, and up until all layers are processed.",
+    "time_complexity": "O(r*c)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-01 23:53:59",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

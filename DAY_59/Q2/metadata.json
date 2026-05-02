@@ -1,0 +1,17 @@
+{
+  "day": 59,
+  "question": "2",
+  "problem": {
+    "name": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "link": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Recursively pick last postorder element as root, split inorder at that value, and recurse on left/right subtrees.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:36:09",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

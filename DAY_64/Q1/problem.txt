@@ -1,0 +1,15 @@
+Day 64 - Question 1
+==================================================
+
+Title: Breadth First Search (BFS)
+
+Description:
+Problem: Perform BFS from a given source using queue.
+
+Input:
+- n
+- adjacency list
+- source s
+
+Output:
+- BFS traversal order

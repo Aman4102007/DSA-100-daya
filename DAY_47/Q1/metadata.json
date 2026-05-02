@@ -1,0 +1,16 @@
+{
+  "day": 47,
+  "question": "1",
+  "problem": {
+    "title": "Height of Binary Tree",
+    "description": "Problem: Height of Binary Tree\n\nImplement the solution for this problem.\n\nInput:\n- Input specifications\n\nOutput:\n- Output specifications"
+  },
+  "solution": {
+    "explanation": "Build adjacency lists from parent array and recursively compute the maximum depth from the root.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(n)"
+  },
+  "generated_at": "2026-05-02 00:27:28",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

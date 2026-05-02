@@ -1,0 +1,7 @@
+Day 5 - Question 2
+==================================================
+
+Name: Merge Sorted Array
+
+Link: https://leetcode.com/problems/merge-sorted-array/
+Difficulty: Easy

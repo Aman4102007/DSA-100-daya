@@ -1,0 +1,16 @@
+{
+  "day": 5,
+  "question": "1",
+  "problem": {
+    "title": "Arrange Arrival Logs",
+    "description": "Problem: A system receives two separate logs of user arrival times from two different servers. Each log is already sorted in ascending order. Your task is to create a single chronological log that preserves the correct order of arrivals.\n\nInput:\n- First line: integer p (number of entries in server log 1)\n- Second line: p sorted integers representing arrival times from server 1\n- Third line: integer q (number of entries in server log 2)\n- Fourth line: q sorted integers representing arrival times from server 2)\n\nOutput:\n- Print a single line containing all arrival times in chronological order, separated by spaces\n\nExample:\nInput:\n5\n10 20 30 50 70\n4\n15 25 40 60\n\nOutput:\n10 15 20 25 30 40 50 60 70\n\nExplanation: Compare the next unprocessed arrival time from both logs and append the earlier one to the final log until all entries are processed"
+  },
+  "solution": {
+    "explanation": "Merge the two sorted arrays by comparing their current elements and appending the smaller one to the result.",
+    "time_complexity": "O(p+q)",
+    "space_complexity": "O(p+q)"
+  },
+  "generated_at": "2026-05-01 23:49:53",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,16 @@
+{
+  "day": 79,
+  "question": "1",
+  "problem": {
+    "title": "Single Source Shortest Path using Dijkstra’s Algorithm",
+    "description": "Problem Statement\nFind shortest distances from source vertex in a weighted graph with non-negative weights.\n\nInput Format\nn m\nu v w\nsource\n\nOutput Format\nDistances to all vertices.\n\nSample Input\n5 6\n1 2 2\n1 3 4\n2 3 1\n2 4 7\n3 5 3\n4 5 1\n1\n\nSample Output\n0 2 3 9 6\n\nExplanation\nShortest distances computed via priority queue."
+  },
+  "solution": {
+    "explanation": "Uses O(n^2) Dijkstra with an adjacency matrix, updating distances and marking visited vertices.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(n^2)"
+  },
+  "generated_at": "2026-05-02 00:56:57",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,17 @@
+{
+  "day": 68,
+  "question": "2",
+  "problem": {
+    "name": "Alien Dictionary",
+    "link": "https://practice.geeksforgeeks.org/problems/alien-dictionary/1",
+    "difficulty": "Hard"
+  },
+  "solution": {
+    "explanation": "Build graph from adjacent words, then Kahn’s algorithm to topologically sort the letters.",
+    "time_complexity": "O(k^2 + n*L)",
+    "space_complexity": "O(k^2)"
+  },
+  "generated_at": "2026-05-02 00:42:06",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

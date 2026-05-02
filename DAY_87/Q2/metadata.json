@@ -1,0 +1,17 @@
+{
+  "day": 87,
+  "question": "2",
+  "problem": {
+    "name": "Koko Eating Bananas",
+    "link": "https://leetcode.com/problems/koko-eating-bananas/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Binary search on speed; for each mid compute hours needed, adjust bounds.",
+    "time_complexity": "O(n log M)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:01:38",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

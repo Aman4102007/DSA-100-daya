@@ -1,0 +1,17 @@
+{
+  "day": 90,
+  "question": "2",
+  "problem": {
+    "name": "Split Array Largest Sum",
+    "link": "https://leetcode.com/problems/split-array-largest-sum/",
+    "difficulty": "Hard"
+  },
+  "solution": {
+    "explanation": "Binary search on answer: lower bound is max element, upper bound is total sum; check feasibility by greedy partitioning.",
+    "time_complexity": "O(n log S)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:03:31",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

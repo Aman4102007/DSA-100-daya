@@ -1,0 +1,16 @@
+{
+  "day": 81,
+  "question": "1",
+  "problem": {
+    "title": "Implement Bubble Sort",
+    "description": "Problem: Implement Bubble Sort - Implement the algorithm.\n\nInput:\n- First line: integer n\n- Second line: n space-separated integers\n\nOutput:\n- Print the sorted array or search result\n\nExample:\nInput:\n5\n64 34 25 12 22\n\nOutput:\n12 22 25 34 64"
+  },
+  "solution": {
+    "explanation": "Read n and the array, perform bubble sort by swapping adjacent out‑of‑order elements, then print the sorted list.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:58:20",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

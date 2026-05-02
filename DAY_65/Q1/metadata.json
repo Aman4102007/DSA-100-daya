@@ -1,0 +1,16 @@
+{
+  "day": 65,
+  "question": "1",
+  "problem": {
+    "title": "Cycle Detection in Undirected Graph (DFS)",
+    "description": "Problem: Using DFS and parent tracking, detect if undirected graph has a cycle.\n\nOutput:\n- YES or NO"
+  },
+  "solution": {
+    "explanation": "DFS with parent tracking on an adjacency matrix; a back edge to a visited node that is not the parent indicates a cycle.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(n^2)"
+  },
+  "generated_at": "2026-05-02 00:39:33",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

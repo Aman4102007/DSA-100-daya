@@ -1,0 +1,17 @@
+{
+  "day": 92,
+  "question": "2",
+  "problem": {
+    "name": "Kth Largest Element in an Array",
+    "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    "difficulty": "Medium"
+  },
+  "solution": {
+    "explanation": "Sort the array and pick the (n-k)th element.",
+    "time_complexity": "O(n log n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 01:04:43",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

@@ -1,0 +1,16 @@
+{
+  "day": 14,
+  "question": "1",
+  "problem": {
+    "title": "Check Identity Matrix",
+    "description": "Problem: Write a program to check whether a given square matrix is an Identity Matrix. An identity matrix is a square matrix in which all diagonal elements are 1 and all non-diagonal elements are 0.\n\nInput:\n- First line: integer n representing number of rows and columns\n- Next n lines: n integers each representing the matrix elements\n\nOutput:\n- Print \"Identity Matrix\" if the matrix satisfies the condition\n- Otherwise, print \"Not an Identity Matrix\"\n\nExample:\nInput:\n3\n1 0 0\n0 1 0\n0 0 1\n\nOutput:\nIdentity Matrix"
+  },
+  "solution": {
+    "explanation": "Read the matrix, then check each element: diagonal must be 1, others 0. If any mismatch, flag as not identity.",
+    "time_complexity": "O(n^2)",
+    "space_complexity": "O(n^2)"
+  },
+  "generated_at": "2026-05-01 23:58:14",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}

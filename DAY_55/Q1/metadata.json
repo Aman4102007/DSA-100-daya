@@ -1,0 +1,16 @@
+{
+  "day": 55,
+  "question": "1",
+  "problem": {
+    "title": "Right View of Binary Tree",
+    "description": "Problem Statement:\nPrint the nodes visible when the binary tree is viewed from the right side.\n\nInput Format:\n- First line contains integer N\n- Second line contains level-order traversal (-1 indicates NULL)\n\nOutput Format:\n- Print right view nodes\n\nExample:\nInput:\n7\n1 2 3 4 5 -1 6\n\nOutput:\n1 3 6\n\nExplanation:\nAt each level, the rightmost node is visible from the right view."
+  },
+  "solution": {
+    "explanation": "Traverse the level‑order array level by level, keeping the last non‑-1 value seen in each level as the right‑view node.",
+    "time_complexity": "O(n)",
+    "space_complexity": "O(1)"
+  },
+  "generated_at": "2026-05-02 00:32:46",
+  "model": "openai/gpt-oss-20b:free",
+  "language": "C"
+}
